@@ -89,11 +89,15 @@
              
                   <div class="container">
                       <div class="heading">Want Any Service ?</div>
-                      <form action="" class="form">
-                        <input required="" class="input" type="text" name="email" id="email" placeholder="Name">
-                        <input required="" class="input" type="email" name="email" id="email" placeholder="E-mail">
-                        <input required="" class="input" type="text" name="email" id="email" placeholder="Company Name">
-                        <input required="" class="input" type="text" name="email" id="email" placeholder="Service you want">
+                      
+                        <form action="https://api.web3forms.com/submit" method="POST" class="form">
+
+                          <input type="hidden" name="access_key" value="9e6a0b75-21a7-478f-b9d4-2cdef6e7b395">
+
+                        <input required="" class="input" type="text" name="Name" id="email" placeholder="Name">
+                        <input required="" class="input" type="email" name="Email" id="email" placeholder="E-mail">
+                        <input required="" class="input" type="text" name="C-Name" id="email" placeholder="Company Name">
+                        <input required="" class="input" type="text" name="ServiceRequired" id="email" placeholder="Service you want">
                         <input class="login-button" type="submit" value="Submit">
                         
                       </form>

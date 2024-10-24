@@ -1728,6 +1728,10 @@ nav .navlink ul a{
   /* background-color: #0072b1; */
   justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
 }
 
 
